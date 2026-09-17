@@ -12,7 +12,7 @@ namespace WiiBalanceWalker.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.7.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.10.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -356,6 +356,102 @@ namespace WiiBalanceWalker.Properties {
             }
             set {
                 this["StartMinimized"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Key Q")]
+        public string ActionForwardLeft {
+            get {
+                return ((string)(this["ActionForwardLeft"]));
+            }
+            set {
+                this["ActionForwardLeft"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Key E")]
+        public string ActionForwardRight {
+            get {
+                return ((string)(this["ActionForwardRight"]));
+            }
+            set {
+                this["ActionForwardRight"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Key Z")]
+        public string ActionBackwardLeft {
+            get {
+                return ((string)(this["ActionBackwardLeft"]));
+            }
+            set {
+                this["ActionBackwardLeft"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Key C")]
+        public string ActionBackwardRight {
+            get {
+                return ((string)(this["ActionBackwardRight"]));
+            }
+            set {
+                this["ActionBackwardRight"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("-15")]
+        public int AmountForwardLeft {
+            get {
+                return ((int)(this["AmountForwardLeft"]));
+            }
+            set {
+                this["AmountForwardLeft"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("15")]
+        public int AmountForwardRight {
+            get {
+                return ((int)(this["AmountForwardRight"]));
+            }
+            set {
+                this["AmountForwardRight"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("-15")]
+        public int AmountBackwardLeft {
+            get {
+                return ((int)(this["AmountBackwardLeft"]));
+            }
+            set {
+                this["AmountBackwardLeft"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("15")]
+        public int AmountBackwardRight {
+            get {
+                return ((int)(this["AmountBackwardRight"]));
+            }
+            set {
+                this["AmountBackwardRight"] = value;
             }
         }
     }

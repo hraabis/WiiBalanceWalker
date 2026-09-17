@@ -86,5 +86,29 @@
     <Setting Name="StartMinimized" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
+    <Setting Name="ActionForwardLeft" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Key Q</Value>
+    </Setting>
+    <Setting Name="ActionForwardRight" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Key E</Value>
+    </Setting>
+    <Setting Name="ActionBackwardLeft" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Key Z</Value>
+    </Setting>
+    <Setting Name="ActionBackwardRight" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Key C</Value>
+    </Setting>
+    <Setting Name="AmountForwardLeft" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-15</Value>
+    </Setting>
+    <Setting Name="AmountForwardRight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">15</Value>
+    </Setting>
+    <Setting Name="AmountBackwardLeft" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-15</Value>
+    </Setting>
+    <Setting Name="AmountBackwardRight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">15</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
