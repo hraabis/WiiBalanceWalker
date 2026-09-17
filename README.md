@@ -1,7 +1,7 @@
 # WiiBalanceWalker v0.6 
-## v0.6 by Hartley Raabis
-## v0.5 by Shachar Liberman
-## v0.4 and before - Released by Richard Perry from GreyCube.com - Under the Microsoft Public License.
+### v0.6 by Hartley Raabis
+### v0.5 by Shachar Liberman
+### v0.4 and before - Released by Richard Perry from GreyCube.com - Under the Microsoft Public License.
  
 [Uses lshachar's WiimoteLib DLL  ](https://github.com/lshachar/WiimoteLib)<br/>
 [Uses the 32Feet.NET bluetooth DLL](http://32feet.codeplex.com)<br/>
