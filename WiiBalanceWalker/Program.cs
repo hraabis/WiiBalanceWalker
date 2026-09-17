@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Bluegrams.Application;
+using System;
 using System.Windows.Forms;
 
 namespace WiiBalanceWalker
@@ -14,6 +13,7 @@ namespace WiiBalanceWalker
         [STAThread]
         static void Main()
         {
+            PortableSettingsProvider.ApplyProvider(Properties.Settings.Default);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             FormMain = new FormMain();
