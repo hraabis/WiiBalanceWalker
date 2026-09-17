@@ -15,6 +15,10 @@ namespace WiiBalanceWalker
         public ActionItem Jump;
         public ActionItem DiagonalLeft;
         public ActionItem DiagonalRight;
+        public ActionItem ForwardLeft;
+        public ActionItem ForwardRight;
+        public ActionItem BackwardLeft;
+        public ActionItem BackwardRight;
     }
 
     /// <summary>Abstracts away selecting, saving, and sending multiple input types.</summary>

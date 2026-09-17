@@ -65,6 +65,10 @@ namespace WiiBalanceWalker
             actionList.Jump          = new ActionItem("Jump",          comboBox_AJ,  numericUpDown_AJ);
             actionList.DiagonalLeft  = new ActionItem("DiagonalLeft",  comboBox_ADL, numericUpDown_ADL);
             actionList.DiagonalRight = new ActionItem("DiagonalRight", comboBox_ADR, numericUpDown_ADR);
+            actionList.ForwardLeft = new ActionItem("ForwardLeft", comboBox_AFL, numericUpDown_AFL);
+            actionList.ForwardRight = new ActionItem("ForwardRight", comboBox_AFR, numericUpDown_AFR);
+            actionList.BackwardLeft = new ActionItem("BackwardLeft", comboBox_ABL, numericUpDown_ABL);
+            actionList.BackwardRight = new ActionItem("BackwardRight", comboBox_ABR, numericUpDown_ABR);
 
             // Load saved preference.
 
@@ -420,14 +424,18 @@ namespace WiiBalanceWalker
 
             if (!checkBox_DisableActions.Checked)
             {
+                if (sendModifier) actionList.Modifier.Start(); else actionList.Modifier.Stop();
                 if (sendLeft)          actionList.Left.Start();          else actionList.Left.Stop();
                 if (sendRight)         actionList.Right.Start();         else actionList.Right.Stop();
                 if (sendForward)       actionList.Forward.Start();       else actionList.Forward.Stop();
                 if (sendBackward)      actionList.Backward.Start();      else actionList.Backward.Stop();
-                if (sendModifier)      actionList.Modifier.Start();      else actionList.Modifier.Stop();
                 if (sendJump)          actionList.Jump.Start();          else actionList.Jump.Stop();
                 if (sendDiagonalLeft)  actionList.DiagonalLeft.Start();  else actionList.DiagonalLeft.Stop();
                 if (sendDiagonalRight) actionList.DiagonalRight.Start(); else actionList.DiagonalRight.Stop();
+                if (sendForward && sendLeft) actionList.ForwardLeft.Start(); else actionList.ForwardLeft.Stop();
+                if (sendForward && sendRight) actionList.ForwardRight.Start(); else actionList.ForwardRight.Stop();
+                if (sendBackward && sendLeft) actionList.BackwardLeft.Start(); else actionList.BackwardLeft.Stop();
+                if (sendBackward && sendRight) actionList.BackwardRight.Start(); else actionList.BackwardRight.Stop();
             }
 
             // Update joystick emulator.
@@ -511,6 +519,10 @@ namespace WiiBalanceWalker
             actionList.Jump.Stop();
             actionList.DiagonalLeft.Stop();
             actionList.DiagonalRight.Stop();
+            actionList.ForwardLeft.Stop();
+            actionList.ForwardRight.Stop();
+            actionList.BackwardLeft.Stop();
+            actionList.BackwardRight.Stop();
         }
 
         private void zeroout_Click(object sender, EventArgs e)
@@ -553,6 +565,11 @@ namespace WiiBalanceWalker
             label_TFB.Enabled = status;
             label_TMLR.Enabled = status;
             label_TMFB.Enabled = status;
+            label_ActionForwardLeft.Enabled = status;
+            label_ActionForwardRight.Enabled = status;
+            label_ActionBackwardLeft.Enabled = status;
+            label_ActionBackwardRight.Enabled = status;
+            
         }
 
         private void ShowValues_CheckedChanged(object sender, EventArgs e)
