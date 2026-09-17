@@ -87,16 +87,16 @@
       <Value Profile="(Default)">False</Value>
     </Setting>
     <Setting Name="ActionForwardLeft" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Key Q</Value>
+      <Value Profile="(Default)">Do Nothing</Value>
     </Setting>
     <Setting Name="ActionForwardRight" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Key E</Value>
+      <Value Profile="(Default)">Do Nothing</Value>
     </Setting>
     <Setting Name="ActionBackwardLeft" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Key Z</Value>
+      <Value Profile="(Default)">Do Nothing</Value>
     </Setting>
     <Setting Name="ActionBackwardRight" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Key C</Value>
+      <Value Profile="(Default)">Do Nothing</Value>
     </Setting>
     <Setting Name="AmountForwardLeft" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">-15</Value>

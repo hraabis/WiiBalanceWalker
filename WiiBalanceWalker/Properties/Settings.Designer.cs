@@ -361,7 +361,7 @@ namespace WiiBalanceWalker.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Key Q")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Do Nothing")]
         public string ActionForwardLeft {
             get {
                 return ((string)(this["ActionForwardLeft"]));
@@ -373,7 +373,7 @@ namespace WiiBalanceWalker.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Key E")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Do Nothing")]
         public string ActionForwardRight {
             get {
                 return ((string)(this["ActionForwardRight"]));
@@ -385,7 +385,7 @@ namespace WiiBalanceWalker.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Key Z")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Do Nothing")]
         public string ActionBackwardLeft {
             get {
                 return ((string)(this["ActionBackwardLeft"]));
@@ -397,7 +397,7 @@ namespace WiiBalanceWalker.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Key C")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Do Nothing")]
         public string ActionBackwardRight {
             get {
                 return ((string)(this["ActionBackwardRight"]));
