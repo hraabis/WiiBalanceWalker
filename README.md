@@ -1,5 +1,7 @@
-# WiiBalanceWalker v0.5 - by Shachar Liberman
-## WiiBalanceWalker v0.4 and before - Released by Richard Perry from GreyCube.com - Under the Microsoft Public License.
+# WiiBalanceWalker v0.6 
+### v0.6 by Hartley Raabis
+### v0.5 by Shachar Liberman
+### v0.4 and before - Released by Richard Perry from GreyCube.com - Under the Microsoft Public License.
  
 [Uses lshachar's WiimoteLib DLL  ](https://github.com/lshachar/WiimoteLib)<br/>
 [Uses the 32Feet.NET bluetooth DLL](http://32feet.codeplex.com)<br/>
@@ -7,7 +9,13 @@
 (Previous to  v0.5 [VJoy by headsoft](http://headsoft.com.au/index.php?category=vjoy) was used)<br/>
 ***
 
-### WiiBalanceWalker v0.5 progress over v0.4:
+### WiiBalanceWalker progress
+## v0.6:
+	o Add new actions for diagonals Forward Left/Right and Backward Left/Right.
+	o Add nuget package PortableSettingsProvider to save settings consistantly with copy/paste deployment.
+	o Update to .Net Framework 4.8
+
+## v0.5:
 	o Virtual joystick Support for x64 systems
 	o Can send values directly measured from each of the load sensors, to the virtual joystick interface.
 	o Instructions for adding / removing bluetooth devices updated for windows 10. 
